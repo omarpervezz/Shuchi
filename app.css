@@ -1,0 +1,117 @@
+@font-face {
+  font-family: millionsdream;
+  src: url(/million-dreams/Million\ Dreams.woff);
+}
+html,body{
+  margin:0px;
+  height:100%;
+}
+
+
+.bg_heart{
+  position:relative;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+ overflow:hidden;
+  background-image:url("/dark-style-valentines-day-celebration (1).jpg");
+  background-size: cover;
+  background-position: center center;
+  z-index:-1;
+  
+}
+#text1{
+  font-size: 45px;
+  background: linear-gradient(to right, #e7ecea, #96acb9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "millionsdream", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+.container{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  text-align:center;
+  color:white;
+  font-family: "millionsdream", cursive;
+}
+
+
+.heart{
+  position:absolute;
+  top:-50%;
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  -moz-transform:rotate(-45deg);
+  -m-transform:rotate(-45deg);
+}
+.heart:before{
+  position:absolute;
+  top:-50%;
+  left:0;
+  display:block;
+  content:"";
+  width:100%;
+  height:100%;
+  background:inherit;
+  border-radius:100%;
+}
+.heart:after{
+  position:absolute;
+  top:0;
+  right:-50%;
+  display:block;
+  content:"";
+  width:100%;
+  height:100%;
+  background:inherit;
+  border-radius:100%;
+}
+
+@keyframes love {
+  0%{top:110%}
+}
+@-webkit-keyframes love {
+  0%{top:110%}
+}
+@-moz-keyframes love {
+  0%{top:110%}
+}
+@-ms-keyframes love {
+  0%{top:110%}
+}
+
+.text {
+  font-family: "Arial", sans-serif;
+  font-size: 95px;
+  text-align: center;
+  font-weight: bold;
+color: #3d3d3d;
+position: absolute;
+}
+
+.shuchi_1 {
+  left: 20px;
+}
+.shuchi_2{
+  right: 20px;
+}
+.text span {
+  text-shadow: 
+    0 -1px 0 #858585,
+        
+         
+         0 1px 10px rgba(0,0,0,.6),
+         0 6px 1px rgba(0,0,0,.1),
+         0 0 5px rgba(0,0,0,.2),
+         0 1px 3px rgba(0,0,0,.3),
+         0 3px 5px rgba(0,0,0,.2),
+         0 7px 10px rgba(0,0,0,.25),
+         0 15px 10px rgba(0,0,0,.2),
+         0 25px 15px rgba(0,0,0,.15);
+}

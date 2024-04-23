@@ -1,6 +1,6 @@
 @font-face {
   font-family: millionsdream;
-  src: url(/million-dreams/Million\ Dreams.woff);
+  src: url(./million-dreams/Million\ Dreams.woff);
 }
 html,body{
   margin:0px;

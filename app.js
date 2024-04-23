@@ -33,13 +33,3 @@ var love = setInterval(function(){
       setTimeout(typeWriter, speed);
     }
   }
-
-
-   // Get the audio element
-   var audio = document.getElementById("myAudio");
- // Set the volume to 50%
- audio.volume = 0.4;
-   // Play the audio when the page is loaded
-   window.onload = function() {
-     audio.play();
-   };
